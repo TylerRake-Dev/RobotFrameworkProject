@@ -2,6 +2,7 @@
 Library    SeleniumLibrary
 Suite Setup    เปิดเบราว์เซอร์    ${URL}    ${BROWSER}
 Suite Teardown     Close All Browsers
+
 *** Variables ***
 ${URL}    https://www.allonline.7eleven.co.th/
 ${BROWSER}    chrome
@@ -146,5 +147,5 @@ ${ADDRESS_DETAIL}    เซเว่นอีเลฟเว่น #10520
     END
 
 ปิดเบราว์เซอร์
-    Sleep    15s
+    Sleep    10s
     Close Browser
